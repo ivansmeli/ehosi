@@ -1,0 +1,59 @@
+#navMenu {
+	margin: 0;
+	padding: 0;
+}
+#body{
+background-image:url(3.png);
+background-color: grey;
+}
+#navMenu ul {
+	margin: 0;
+	padding: 1;
+	line-height: 30px;
+}
+#navMenu li {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	float: left;
+	position: relative;
+}
+#navMenu ul li a{
+	text-align: center;
+	font-family: "Comic Sans Ms",cursive;
+	text-decoration:none;
+	height: 30px;
+	width: 150px;
+	display: block;
+	color: green; 
+}
+#navMenu ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 30px;
+}
+#navMenu ul li:hover ul{
+	visibility: visible;
+}
+#frm{
+border:solid gray 1px;
+width:20%;
+border-radius:5px;
+margin:100px auto;
+background:green;
+padding:5px;
+text-align: center;
+}
+#btn1{
+color:#fff;
+background:#337ab7;
+padding:1px;
+margin-left:10%;
+}
+#btn2{
+color:#fff;
+background:#337ab7;
+padding:1px;
+margin-right:50%;
+}
+
